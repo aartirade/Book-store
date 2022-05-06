@@ -1,0 +1,154 @@
+nav {
+  background-color: #6f4e37;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+nav h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.navbar-nav {
+  font-weight: 600 !important;
+}
+
+.navbar-nav a:hover {
+  background-color: #c19a6b;
+}
+
+.nav-item .btn:hover {
+  background-color: #ff3333;
+}
+
+.slider .slide {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+#book-now .card {
+  background-color: #f8f5f0;
+  padding: 10px;
+}
+
+#book-now .card:hover {
+  background-color: #f1e7f1;
+}
+
+.card p {
+  font-size: 15px;
+}
+
+#book-now .card:hover {
+  /* transform: scale(1.06); */
+}
+
+del {
+  color: gray;
+  padding: 8px;
+}
+
+.card .btn:hover {
+  background-color: #6f4e37;
+  color: white;
+}
+
+#book-now {
+  padding: 30px;
+}
+
+#book-now .card img {
+  width: 220px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+.footer {
+  background-color: #6f4e37;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer2 {
+  background-color: #6f4e37;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* login page */
+
+form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  background-color: white;
+  padding: 70px !important;
+  /* box-shadow: 2px 0px 15px 3px rgba(0, 0, 0, 0.2); */
+  box-shadow: -14px 5px 12px -6px #c09e75, 10px 0 8px -8px black;
+  border: #ccac85 2px solid;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
+  background-color: #ccac85;
+  border-radius: 100%;
+  font-size: 25px;
+  padding: 8px;
+  margin: 5px;
+}
+
+.log-btn:hover {
+  background-color: #660000;
+}
+
+.info h3 {
+  color: #c19a6b;
+  font-weight: 700;
+}
+.form {
+  background: radial-gradient(#ccaa8f, #c49775, #97745a);
+  box-shadow: 14px 5px 12px -6px #6f4e37;
+  /* border-radius: 0px 160px 160px 0px; */
+}
+
+/* .info {
+  border: #ccac85 2px solid;
+  border-radius: 160px 0px 0px 160px;
+} */
+
+/* admin  */
+
+.fas {
+  background-color: #c19a6b;
+  border-radius: 100%;
+  color: white;
+  padding: 25px;
+  font-size: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.admin-card .card {
+  width: 90%;
+  padding: 15px;
+  box-shadow: 4px 5px 6px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  background-color: #fffafa;
+}
+
+.admin-card {
+  padding-left: 75px !important;
+}

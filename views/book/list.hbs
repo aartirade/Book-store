@@ -1,0 +1,26 @@
+<h3>  <a name="gotoadduser" id="" class="btn text-light " style="background-color: #6f4e37;" href="/book" role="button"> <i class="fa fa-plus"></i> Add new Book  </a> Books List </h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Book Id</th>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+      {{#each list}}
+      <tr>
+          <td>{{this.book_id}}</td>
+          <td>{{this.name}}</td>
+          <td>{{this.author}}</td>
+          <td>{{this.price}}</td>
+          <td><a href="/book/{{this._id}}"><i class="fa fa-pencil fa-lg "  aria-hidden="true"></i></a></td>
+          <td><a href="/book/delete/{{this._id}}" onclick=" return confirm('Are you sure you what to delete this record?');" ><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a></td>
+      </tr>
+      {{/each}}
+
+    </tbody>
+</table>
+
+<a name="backtodatabase" id="" class="btn btn-primary text-light"  href="/back" role="button"> Back   </a>
